@@ -16,7 +16,7 @@ def get_word_list(file_name):
     startBook = s.index('CHAPTER I') + 9
     s = s.lower()
     s = s[startBook:]
-    lis_File = s.split() # breaks up string at the spaces creates a list of elements
+    lis_File = s.split() #breaks up string at the spaces creates a list of elements
     return lis_File
 
 
